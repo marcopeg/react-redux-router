@@ -1,0 +1,15 @@
+[{
+	"script" : "lib/server.js",
+	"name" : "DevServer"
+},{
+	"script" : "lib/livereload.js",
+	"name" : "LiveReload"
+},{
+	"script" : "./node_modules/gulp/bin/gulp.js",
+	"name" : "Builder",
+	"args" : "watch --harmony"
+},{
+	"script" : "./node_modules/gulp/bin/gulp.js",
+	"name" : "Linter",
+	"args" : "watch-lint --harmony"
+}]
